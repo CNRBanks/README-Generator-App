@@ -1,10 +1,8 @@
-
-
-# FIRE
-    https://github.com//FIRE
+# README-Generator
+    https://github.com/CNRBanks/README-Generator
 
 # Description
-     
+    This app allows users to generate their own README.md files. 
 
 # Table of Contents
 * [Installation](#installation)
@@ -15,18 +13,38 @@
 * [Questions](#questions)
 
 # Installation
-    The following necessary dependencies must be installed to run the application properly: 
+    The following necessary dependencies must be installed to run the application properly: We recommend that users download Inquirer, Nodemon, and Util for full functionality. These dependencies and the version used can be found in the package.json file.
 
 # Usage
-    
+    Simply open the terminal and run the app by entering "node app" - once this has been entered the user will be prompted to respond to a series of questions in their terminal. After answering each question appropriately the app will compile the answers and export to the  README-generated.md file. From here the user can  copy the contents of the file or export the file to be used as their own personal README.md.
 
 # License
-    This project is licensed under the function toUpperCase() { [native code] } license. 
-    ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+   MIT License
+
+Copyright (c) [year] [fullname]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 
 # Tests
-    The following is needed to run the test: 
+    The following is needed to run the test: "npm install" and "node app"
 
 # Questions
-    If you have any questions about the repo, open an issue or contact  directly at : .
+    If you have any questions about the repo, open an issue or contact CNRBanks directly at : bankstamminen@gmail.com.
     

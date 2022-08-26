@@ -82,7 +82,7 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
   inquirer.prompt(questions).then(function (data) {
-    writeToFile("README.md", MarkDown(data));
+    writeToFile("README-generated.md", MarkDown(data));
     console.log(data);
   });
 }
