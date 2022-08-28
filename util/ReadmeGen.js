@@ -1,5 +1,4 @@
 // function for generating markdown for the readme input
-
 function MarkDown(data) {
   return `
 
@@ -32,7 +31,7 @@ function MarkDown(data) {
 
 # Questions
     If you have any questions about the repo, open an issue or contact ${data.Username} directly at : ${data.Email}.
-    `
+    `;
 }
 
 module.exports = MarkDown;

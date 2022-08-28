@@ -14,7 +14,8 @@ const questions = [
   {
     type: "input",
     name: "Description",
-    message: "What is the project about? Please provide a detailed description of your project here -",
+    message:
+      "What is the project about? Please provide a detailed description of your project here -",
   },
   {
     type: "input",
@@ -24,7 +25,8 @@ const questions = [
   {
     type: "input",
     name: "Installation",
-    message: "What dependencies does the user need to install to run this application?",
+    message:
+      "What dependencies does the user need to install to run this application?",
   },
   {
     type: "input",
@@ -66,7 +68,7 @@ const questions = [
     },
   },
 ];
-// function to write README file
+// function to write the README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, function (err) {
     console.log(fileName);
@@ -79,7 +81,7 @@ function writeToFile(fileName, data) {
   });
 }
 
-// function to initialize program
+// function to start app
 function init() {
   inquirer.prompt(questions).then(function (data) {
     writeToFile("README-generated.md", MarkDown(data));
@@ -87,16 +89,5 @@ function init() {
   });
 }
 
-// function call to initialize program
+// starts app
 init();
-
-// .then(function shiddy(response){
-//     var responses = JSON.stringify(response)
-//     fs.writeFile('log.txt', responses, (err) =>
-//     err ? console.error(err) : console.log('success!'))
-// });
-
-/// belongs in package.json
-// "scripts": {
-//   "start": "node app.js"
-// },
