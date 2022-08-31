@@ -9,6 +9,11 @@ console.log("README-generator-app running");
 const questions = [
   {
     type: "input",
+    name: "Username",
+    message: "GitHub Username: ",
+  },
+  {
+    type: "input",
     name: "Title",
     message: "What is the title of your project?",
   },
@@ -41,18 +46,13 @@ const questions = [
   },
   {
     type: "input",
-    name: "Questions",
-    message: "Contact info for any inquiries.",
-  },
-  {
-    type: "input",
-    name: "Username",
-    message: "What is your GitHub username",
-  },
-  {
-    type: "input",
     name: "Email",
-    message: "What is your email address?",
+    message: "Email address: ",
+  },
+  {
+    type: "input",
+    name: "Questions",
+    message: "Contact Information: ",
   },
   {
     type: "list",
@@ -82,4 +82,3 @@ function init() {
 
 // starts app
 init();
-

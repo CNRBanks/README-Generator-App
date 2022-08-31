@@ -6,6 +6,10 @@
 
     This app allows users to generate their own README.md files.
 
+# Walk Through Video
+
+    https://app.castify.com/view/aefa03b7-6218-4f7a-bed1-c37043ff131d
+
 # Table of Contents
 
 - [Installation](#installation)
@@ -17,7 +21,7 @@
 
 # Installation
 
-    The following necessary dependencies must be installed to run the application properly: We recommend that users download Inquirer, Nodemon, and Util for full functionality. These dependencies and the version used can be found in the package.json file.
+    The following necessary dependencies must be installed to run the application properly: We recommend that users download Inquirer and Nodemon for full functionality. These dependencies and the versions used can be found in the package.json file.
 
 # Usage
 

@@ -1,4 +1,5 @@
 // function for generating markdown for the readme input
+// TO DO - add license badge functionality
 function MarkDown(data) {
   return `
 
