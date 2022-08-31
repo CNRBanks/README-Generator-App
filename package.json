@@ -1,26 +1,15 @@
 {
   "name": "README-generator-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "generates a readme based on the users input",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Connor Banks",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^8.2.4",
-    "nodemon": "^2.0.19",
-    "util": "^0.12.4"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CNRBanks/README-Generator-App"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/CNRBanks/README-Generator-App/issues"
-  },
-  "homepage": "https://github.com/CNRBanks/README-Generator-App#readme"
+    "nodemon": "^2.0.19"
+  }
 }
