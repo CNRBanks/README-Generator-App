@@ -18,20 +18,19 @@ function MarkDown(data) {
 * [Questions](#questions)
 
 ## Installation
-    The following necessary dependencies must be installed to run the application properly: ${data.Installation}
+    ${data.Installation}
 
 ## Usage
     ${data.Usage}
 
 ## License
-    This project is licensed under the ${data.License} license. 
-    ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+    ${data.License}
 
 ## Tests
-    The following is needed to run the test: ${data.Tests}
+    ${data.Tests}
 
 ## Questions
-    If you have any questions about the repo, open an issue or contact ${data.Username} directly at : ${data.Email}.
+    Please contact ${data.Username} directly at : ${data.Email} if you have any questions!
     `;
 }
 
