@@ -6,6 +6,7 @@ const MarkDown = require("./generator/ReadmeGen.js");
 
 console.log("README-generator-app running");
 
+// list/array of questions necessary for README file
 const questions = [
   {
     type: "input",
@@ -18,11 +19,11 @@ const questions = [
     message:
       "What is the project about? Please provide a detailed description of your project here -",
   },
-  {
-    type: "input",
-    name: "Table of Contents",
-    message: "Table of Contents",
-  },
+  // {
+  //   type: "input",
+  //   name: "Table of Contents",
+  //   message: "Table of Contents",
+  // },
   {
     type: "input",
     name: "Installation",
@@ -66,39 +67,37 @@ const questions = [
     choices: ["MIT", "ISC", "None"],
   },
 ];
-// function to write the README file
+// function that writes the README file
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data, function (err) {
-    console.log(fileName);
-    console.log(data);
+  fs.writeFile(fileName, data, (err) => {
     if (err) {
       return console.log(err);
     } else {
-      console.log("success");
+      console.log("The README file has been created succesfully!");
     }
   });
 }
 
 // function to start app
 function init() {
-  inquirer.prompt(questions).then(function (data) {
+  inquirer.prompt(questions).then((data) => {
     writeToFile("README-generated.md", MarkDown(data));
-    console.log(data);
+    // console.log(data);
   });
 }
 
 // starts app
 init();
 
-  // "devDependencies": {},
-  // "repository": {
-  //   "type": "git",
-  //   "url": "git+https://github.com/CNRBanks/README-Generator-App"
-  // },
-  // "keywords": [],
-  // "bugs": {
-  //   "url": "https://github.com/CNRBanks/README-Generator-App/issues"
-  // },
-  // "homepage": "https://github.com/CNRBanks/README-Generator-App#readme"
+// "devDependencies": {},
+// "repository": {
+//   "type": "git",
+//   "url": "git+https://github.com/CNRBanks/README-Generator-App"
+// },
+// "keywords": [],
+// "bugs": {
+//   "url": "https://github.com/CNRBanks/README-Generator-App/issues"
+// },
+// "homepage": "https://github.com/CNRBanks/README-Generator-App#readme"
 
-  // "util": "^0.12.4"
+// "util": "^0.12.4"
