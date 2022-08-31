@@ -1,12 +1,12 @@
 {
-  "name": "readme-generator",
+  "name": "README-generator-app",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Connor Banks",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.4",
@@ -16,11 +16,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DianaLRS/Readme-Generator.git"
+    "url": "git+https://github.com/CNRBanks/README-Generator-App"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/DianaLRS/Readme-Generator/issues"
+    "url": "https://github.com/CNRBanks/README-Generator-App/issues"
   },
-  "homepage": "https://github.com/DianaLRS/Readme-Generator#readme"
+  "homepage": "https://github.com/CNRBanks/README-Generator-App#readme"
 }

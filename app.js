@@ -3,7 +3,7 @@ const fs = require("fs");
 const util = require("util");
 const MarkDown = require("./util/ReadmeGen.js");
 
-console.log("readme-generator running");
+console.log("README-generator-app running");
 
 const questions = [
   {
@@ -63,9 +63,6 @@ const questions = [
     name: "License",
     message: "License used?",
     choices: ["MIT", "ISC", "None"],
-    filter(val) {
-      return val.toUpperCase;
-    },
   },
 ];
 // function to write the README file
