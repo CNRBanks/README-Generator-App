@@ -1,6 +1,6 @@
 # README-Generator
 
-    https://github.com/CNRBanks/README-Generator
+    https://github.com/CNRBanks/README-Generator-App
 
 # Description
 
@@ -27,7 +27,7 @@
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2022] [Connor Banks]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -54,6 +54,7 @@ SOFTWARE.
     1. https://www.youtube.com/watch?v=QFV7jzu8mKw
     2. https://www.youtube.com/watch?v=OT63ATGrs5I&t=435s
     3. https://www.youtube.com/watch?v=9ZHzhHiBwqc
+    4. https://www.youtube.com/watch?v=cqJQ9wbUQto
 
 # Tests
 

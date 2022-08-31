@@ -1,7 +1,6 @@
 // Imports from third party
 const inquirer = require("inquirer");
 const fs = require("fs");
-// const util = require("util");
 const MarkDown = require("./generator/ReadmeGen.js");
 
 console.log("README-generator-app running");
@@ -19,11 +18,6 @@ const questions = [
     message:
       "What is the project about? Please provide a detailed description of your project here -",
   },
-  // {
-  //   type: "input",
-  //   name: "Table of Contents",
-  //   message: "Table of Contents",
-  // },
   {
     type: "input",
     name: "Installation",
@@ -89,15 +83,3 @@ function init() {
 // starts app
 init();
 
-// "devDependencies": {},
-// "repository": {
-//   "type": "git",
-//   "url": "git+https://github.com/CNRBanks/README-Generator-App"
-// },
-// "keywords": [],
-// "bugs": {
-//   "url": "https://github.com/CNRBanks/README-Generator-App/issues"
-// },
-// "homepage": "https://github.com/CNRBanks/README-Generator-App#readme"
-
-// "util": "^0.12.4"

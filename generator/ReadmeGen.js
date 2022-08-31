@@ -2,13 +2,13 @@
 function MarkDown(data) {
   return `
 
-# ${data.Title}
+## ${data.Title}
     https://github.com/${data.Username}/${data.Title}
 
-# Description
+## Description
     ${data.Description} 
 
-# Table of Contents
+## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
@@ -16,20 +16,20 @@ function MarkDown(data) {
 * [Tests](#tests)
 * [Questions](#questions)
 
-# Installation
+## Installation
     The following necessary dependencies must be installed to run the application properly: ${data.Installation}
 
-# Usage
+## Usage
     ${data.Usage}
 
-# License
+## License
     This project is licensed under the ${data.License} license. 
     ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# Tests
+## Tests
     The following is needed to run the test: ${data.Tests}
 
-# Questions
+## Questions
     If you have any questions about the repo, open an issue or contact ${data.Username} directly at : ${data.Email}.
     `;
 }
